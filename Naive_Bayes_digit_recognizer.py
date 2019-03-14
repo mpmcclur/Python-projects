@@ -12,7 +12,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 
-digit_train = pd.read_csv('Kaggle-digit-train-sample-small-1400.csv')
+digit_train = pd.read_csv('Kaggle-digit-train.csv')
 # Split-out validation dataset
 array = digit_train.values
 X = digit_train.drop(['label'],axis=1)
@@ -39,7 +39,7 @@ accuracy_validation_nb = accuracy_score(Y_validation,pred_clf)
 accuracy_train_nb # 88% accuracy predicting the variables
 accuracy_validation_nb # 89% accuracy predicting the outcome ("label")
 print(confusion_matrix(Y_validation,pred_clf)) 
-print(classification_report(Y_validation,pred_clf)) # 62% accuracy
+print(classification_report(Y_validation,pred_clf)) # 72% accuracy
 
 # Now we can use this on the real test dataset.
 digit_test = pd.read_csv('Kaggle-digit-test.csv')
