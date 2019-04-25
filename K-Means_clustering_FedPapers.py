@@ -21,10 +21,11 @@ del fed_paper["filename"]
 mapping = {'set': 1, 'test': 2}
 fed_paper2 = fed_paper.replace({'Hamilton': 1, 'Madison': 2, 'Jay': 3, 'HM':4, 'dispt':5})
 # create variables containing the predictive variables x and the variable to be predicted y
-fed_x = fed_paper2.drop(['author'],axis=1)
+# test and training data are not needed for the K-means clustering approach, but I'm creating them for future use with this dataset
+fed_x = fed_paper2.drop(['author'],axis=1) # this variable will be used
 fed_x_train = fed_x[12:]
 fed_x_test = fed_x[0:11]
-fed_y = fed_paper2['author']
+fed_y = fed_paper2['author'] # this variable will be used
 fed_y_train = fed_y[12:]
 fed_y_test = fed_y[0:11]
 # test and train data
