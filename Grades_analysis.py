@@ -1,6 +1,7 @@
 """
 Matt McClure
-Exploring the JSON-type "Grades" data
+Using semi-structured JSON data, which is loaded via MongoDB, I explore the Grades dataset by printing basic statistical information,
+visualizing the data, and exporting to CSV specific aggregated data.
 """
 
 import pymongo
