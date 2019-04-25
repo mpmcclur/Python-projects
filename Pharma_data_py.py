@@ -1,5 +1,10 @@
 """
-Pharma Dataset Exploration
+Pandas, Seaborn, and SKlearn packages, among others, are used to explore the Pharma dataset.
+We first explore basic statistics to get an idea of the distribution of the data.
+Then, we develop both naive Bayes and random forest models to predict the following:
+1. The number of prescriptions. (Regression)
+2. Whether prescriptions are from a specialist or a general practitioner. (Classification)
+
 Matt McClure with David Parsons
 """
 
