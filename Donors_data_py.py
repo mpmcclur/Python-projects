@@ -1,6 +1,6 @@
 """
 Matt McClure
-Homework 1
+Exploring the Donors Dataset
 """
 
 import pandas as pd
