@@ -1,6 +1,7 @@
 """
 Matt McClure
-Exploring the Donors Dataset
+Exploring the Donors dataset using Pandas.
+Basic data manipulation and statistical and graphical information regarding the dataset are applied.
 """
 
 import pandas as pd
