@@ -1,6 +1,5 @@
 """
-Created on Mon Feb  4 09:06:15 2019
-
+A decision tree classifier is implemented to identify the unknown author of the federalists papers.
 @author: mmcclure
 """
 
