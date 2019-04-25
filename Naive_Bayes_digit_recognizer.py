@@ -1,9 +1,10 @@
 """
 Created on Mon Feb  4 10:15:06 2019
-
+Digit Recognizer with Naive Bayes
 @author: mmcclure
 """
-#https://www.kaggle.com/nageshnaik/iris-dataset-classfication-using-naive-bayes
+# code structure and inspriration taken from
+# https://www.kaggle.com/nageshnaik/iris-dataset-classfication-using-naive-bayes
 
 import pandas as pd
 from sklearn.naive_bayes import GaussianNB
