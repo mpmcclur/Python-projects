@@ -1,8 +1,6 @@
 """
 Matt McClure
-Homework 2
-
-Example using JSON-type "grades" data
+Exploring the JSON-type "Grades" data
 """
 
 import pymongo
