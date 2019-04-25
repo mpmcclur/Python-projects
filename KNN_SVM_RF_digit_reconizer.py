@@ -1,6 +1,7 @@
 """
 Created on Sat Feb  2 20:34:51 2019 
-Multiple machine learning models using four different algorithms, K nearest neighbor, support vector machine (SVM), kernel SVM, and random forest (RF)
+Multiple machine learning models using four different algorithms, K nearest neighbor, support vector machine (SVM), kernel SVM, and random forest (RF) are used to explore the Digit Recognizer dataset from Kaggle.
+The idea is to identify the model with the highest accuracy.
 @author: Matt
 """
 import numpy as np
