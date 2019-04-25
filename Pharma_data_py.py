@@ -1,7 +1,6 @@
 """
 Pharma Dataset Exploration
-David Parsons
-Matt McClure
+Matt McClure with David Parsons
 """
 
 import pandas as pd
