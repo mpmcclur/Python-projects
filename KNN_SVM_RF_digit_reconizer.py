@@ -1,5 +1,5 @@
 """
-Created on Sat Feb  2 20:34:51 2019
+Created on Sat Feb  2 20:34:51 2019 
 Multiple machine learning models using four different algorithms, K nearest neighbor, support vector machine (SVM), kernel SVM, and random forest (RF)
 @author: Matt
 """
