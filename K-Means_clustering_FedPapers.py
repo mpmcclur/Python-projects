@@ -1,7 +1,8 @@
 """
 Created on Thu Jan 31 20:22:44 2019
+Determined the author of the unknown federalist papers (Fed Papers dataset) using K-means clustering.
+Note that I scripted code for test and training data for the Fed Papers dataset, but neither were used here because K-means clustering does not require them.
 
-@author: Matt
 """
 
 import matplotlib.pyplot as plt
