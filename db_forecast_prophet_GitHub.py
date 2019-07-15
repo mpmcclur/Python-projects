@@ -1,26 +1,8 @@
 """
-Use of FB's Prophet for sales forecasting. In Python, PyStan is this package's dependency. Install instructions: https://facebook.github.io/prophet/docs/installation.html
-
-In conda shell, execute the following:
-conda install libpython m2w64-toolchain -c msys2
-conda install numpy cython -c conda-forge
-conda install matplotlib scipy pandas -c conda-forge
-pip install pystan
-conda install pystan -c conda-forge
-conda install numpy cython matplotlib scipy pandas -c conda-forge
-pip install ephem
-conda install numpy
-pip install fbprophet
-conda install plotly
-conda install matplotlib
-
-https://facebook.github.io/prophet/docs/quick_start.html
-"""
-
-"""
 This program is a quick exercise to test the accuracy of Facebook's Prophet algorithm, purportedly based on Bayesian model fitting.
 The dataset used is a real dataset; the goal is to predict 2019 sales of both "dB Company" and sales from "Country".
-Part 1 seeks to create the model, and Part 2 tests the model to predict 2018 data, which exists. The model was able to predict 2018 sales data to 99.5%.
+Part 1 seeks to create the model, and Part 2 tests the model to predict 2018 data, which exists. The model was able to predict 2018 sales data to 99.5% accuracy.
+Compare this result with the ARIMA model constructed in R in my R-projects folder on GitHub.
 """
 import pandas as pd
 from fbprophet import Prophet
@@ -112,4 +94,25 @@ fig_Country = mdb.plot_components(forecast_Country_2018)
 """
 2018 sales were $1,832,070. Prophet forecast 2018 sales to be $1,840,778 (accurate to 99.5%), which indicates Prophet was able to model
 the historical data accurately, increasing our confidence in the 2019 sales prediction of $2,059,648.
+"""
+
+
+
+"""
+Use of FB's Prophet for sales forecasting. In Python, PyStan is this package's dependency. Install instructions: https://facebook.github.io/prophet/docs/installation.html
+
+In conda shell, execute the following:
+conda install libpython m2w64-toolchain -c msys2
+conda install numpy cython -c conda-forge
+conda install matplotlib scipy pandas -c conda-forge
+pip install pystan
+conda install pystan -c conda-forge
+conda install numpy cython matplotlib scipy pandas -c conda-forge
+pip install ephem
+conda install numpy
+pip install fbprophet
+conda install plotly
+conda install matplotlib
+
+https://facebook.github.io/prophet/docs/quick_start.html
 """
