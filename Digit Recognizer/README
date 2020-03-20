@@ -1,0 +1,1 @@
+I explore Kaggle's Digit Recognizer dataset (https://www.kaggle.com/c/digit-recognizer) using K-nearest neighbor, linear support vector machines, random forest, and naive Bayes models. Both .py and .jupyter files are available.
