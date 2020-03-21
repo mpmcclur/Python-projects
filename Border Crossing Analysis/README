@@ -1,6 +1,6 @@
 Solution to Insight's Border Patrol Analysis Challenge
 
-Consider only the "input", "output", and "soure" folders.
+Consider only the "input", "output", and "soure file" folders.
 
 The source file, "border-crossing-analysis.py", explores the Border Patrol dataset in Python. No additional libraries or modules were loaded for analysis. Only Python's fundamental data structures are used for analysis, specifically lists represented as arrays; NumPy arrays and Pandas dataframes are absent.
 
