@@ -1,7 +1,7 @@
 """
-Pandas, Seaborn, and SKlearn packages, among others, are used to explore the Pharma dataset.
+Pandas, Seaborn, and scikit-learn packages, among others, are used to explore the Pharma Dataset.
 We first explore basic statistics to get an idea of the distribution of the data.
-Then, we develop both naive Bayes and random forest models to predict the following:
+Then, we develop both Naive Bayes and random forest models to predict the following:
 1. The number of prescriptions. (Regression)
 2. Whether prescriptions are from a specialist or a general practitioner. (Classification)
 
@@ -59,7 +59,7 @@ pharma_ind_avg.columns = ["nrx","details","cnrx","own_atts","comp_atts","own_pde
 pharmaclean = pharma_ind_avg.dropna()
 
 # 1.	Generate probability distributions of prescriptions of both the company’s drug and competitors’ drugs.
-# nrx and cnrx variables are # of prescriptions of own drug and competiting drug, respectively
+# nrx and cnrx variables are # of prescriptions of own drug and competing drug, respectively
 # Basic histograms
 pd.DataFrame.hist(pharma_month_avg,'nrx Avg.',bins=20)
 pd.DataFrame.hist(pharma_month_avg,'cnrx Avg.',bins=20)
@@ -305,5 +305,5 @@ ppredictions = pmodel.predict(pfeatures_train)
 pmodel.summary()
 
 #Here, as with the NB prediction models, we see a much lower R-squared score,
-#as there are are so few variables that correlate to what type of doctor
+#as there are so few variables that correlate to what type of doctor
 #there is.
