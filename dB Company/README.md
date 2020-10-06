@@ -1,0 +1,2 @@
+# Intro
+A proprietary dataset of a company's sales data is used to forecast one year in annual sales using an ARIMA model as well as Facebook's Prophet. Prophet's higher-level forecasting abilities outperform my ARIMA model. The ARIMA model's accuracy is low because I had access to historical sales only, which is insufficient. Time-series forecasting models require both variety (such as assessment and consideration of factors influencing sales) and volume (the amount of data available for use).
