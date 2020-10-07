@@ -5,9 +5,8 @@ Created on Tue Oct 23 20:14:52 2018
 @author: Matt
 """
 
-#10/16/2018
-#Write a program in Python that prompts the user for two integers (a base and exponent).
-#Calculate the result of taking the base to the power of the exponent, as in:
+# Write a program in Python that prompts the user for two integers (a base and exponent).
+# Calculate the result of taking the base to the power of the exponent, as in:
 
 #Easy method
 import math
@@ -32,12 +31,10 @@ print(base1)
 
 
 
-#10/23/2018
-# Write a program in Python that prompts the user for an integer. Calculate
-#the factorial for the integer the user provides. Use only logic that you provide
-# do not use 3rd-party code, functions or snippets (including looking up solutions online).
-#Only use the 4 mathematical operators (+, -, x, /).
-# Python code to demonstrate naive method 
+'''Write a program in Python that prompts the user for an integer. Calculate the factorial for the integer the user provides. Use only logic that you provide'''
+# Do not use 3rd-party code, functions or snippets (including looking up solutions online).
+# Only use the 4 mathematical operators (+, -, x, /).
+# Python code to demonstrate naive method
 integer = input("Enter an integer. ")
 num = 1
 for i in range(1,int(integer)+1): 
@@ -60,7 +57,6 @@ sorted(soup, key=lambda elem: elem.text, reverse=True)
 
 
 
-# 11/20/2018
 # Write a program in Python that calculate factorials. Create two functions that calculate the factorial for a given integer.
 # One function should be recursive, while the other function should be iterative. Create a third function that calls both the
 # iterative and recursive versions, compares the results, and raises an error if the results do not match.
@@ -114,13 +110,11 @@ factorial(10)
 
 
 
-
-# 11/27/2018
-# Look at week 8 live session breakout Word document for entire prompt.
+# Create a function to extract and pull select information from a stock portfolio JSON file.
 import pandas as pd
 import urllib
 import json
-portfolio = pd.read_csv('C:/Users/Matt/Desktop/IST 652 (Scripting for Data Analysis)/Week 8/Live session breakout/Portfolio.csv')
+portfolio = pd.read_csv('Portfolio.csv')
 url_start = 'https://api.iextrading.com/1.0/stock/'
 url_end = '/quote'
 
