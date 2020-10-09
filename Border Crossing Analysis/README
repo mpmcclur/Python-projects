@@ -2,7 +2,7 @@ Solution to Insight's Border Patrol Analysis Challenge
 
 Consider only the "input", "output", and "source file" folders.
 
-The source file, "border-crossing-analysis.py", explores the Border Patrol dataset in Python. No additional libraries or modules were loaded for analysis. Only Python's fundamental data structures are used for analysis, specifically lists represented as arrays; NumPy arrays and Pandas dataframes are absent.
+The source file, "border-crossing-analysis.py", explores the Border Patrol dataset in Python. No additional libraries or modules were loaded in. Only Python's fundamental data structures are used for analysis, specifically lists represented as arrays; NumPy arrays and Pandas dataframes are absent.
 
 Only three modules were loaded in: "os" and "csv" to export the output file and "math" to round up floating point values. "Math" is not used for anything but rounding, and it's needed due to Python's round() function and the way floating points are stored (i.e., to round floating points to an integer, Python rounds the value to the nearest even integer, not nearest value). Thus, all floats are rounded up, for safety.
 
