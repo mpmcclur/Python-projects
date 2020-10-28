@@ -105,23 +105,11 @@ HM_cluster.mode() # HM is cluster 0
 disp_cluster.mode() # disp is cluster 0
 
 # Note that Madison is grouped with Hamilton and Madison.
-# Thus, our clustering result suggests the disputed papers were written either by Madison or Hamilton and Madison
+# Thus, our clustering result suggests the disputed papers were written either by "Madison" or "Hamilton and Madison"
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-# old code
+''' Unused code and scratch
 # Visualize the cluster centers
 fed_values = fed_paper2.values
 kmeans = KMeans(n_clusters=3).fit(fed_values)
@@ -222,3 +210,4 @@ def success_ratio(cm):
             if i == j: total_success = total_success + cm[i, j]
             total = total + cm[i, j]
     return (100*total_success)/total
+'''
