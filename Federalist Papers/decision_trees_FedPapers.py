@@ -56,14 +56,4 @@ export_graphviz(dtc, out_file=dot_data,
 graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
 Image(graph.create_png())
 
-
-# Additional pruning
-
-
-
-
-
-
-
-
-### DIGIT RECOGNIZER ###
+# We conclude that additional pruning is needed to improve the accuracy of this decision tree model.
