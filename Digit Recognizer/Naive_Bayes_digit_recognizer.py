@@ -3,7 +3,7 @@ Created on Mon Feb  4 10:15:06 2019
 The naive Bayes algorithm is used to predict numerical values within the Digit Recognizer dataset from Kaggle.
 @author: mmcclure
 """
-# code structure and inspriration taken from
+# code structure and inspiration taken from
 # https://www.kaggle.com/nageshnaik/iris-dataset-classfication-using-naive-bayes
 
 import pandas as pd
