@@ -61,7 +61,7 @@ pred_test_knn = knn.predict(digit_y_test)
 pred_test_knn = pd.DataFrame(pred_test_knn)
 
 
-# SVM Model
+# Linear SVM Model
 # https://scikit-learn.org/stable/modules/svm.html
 svclassifier = SVC(kernel='linear')
 # fit the model
@@ -139,4 +139,4 @@ print('Mean Absolute Error:', metrics.mean_absolute_error(Y_validation, y_pred_r
 print('Mean Squared Error:', metrics.mean_squared_error(Y_validation, y_pred_rf))
 print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(Y_validation, y_pred_rf)))
 
-# Of all the algorithms we used, random forest provided the most accurate prediction
+# Of all the algorithms we used, random forest provided the most accurate prediction (91%).
