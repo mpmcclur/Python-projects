@@ -1,0 +1,1 @@
+This project was an investigation into a dataset provided by an insurance company. Descriptive statistics, visualizations, and logistic regression techniques are employed to understand the types of information gleaned from the data. Refer to the Jupyter Report file for a full introduction and subsequent results.
